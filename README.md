@@ -3,5 +3,5 @@
 
 #### Log
 `
-February 13, 2018 - Completed Methods to remove duplicate items in a list.
+-[February 13, 2018] Completed Methods to remove duplicate items in a list.
 `
