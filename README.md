@@ -5,5 +5,4 @@ For coding practice and random ideas..
   
 #### Log
 `
--[February 13, 2018] Completed Methods to remove duplicate items in a list.
-`
+-[February 13, 2018] Uploaded ListLogic: methods to remove duplicates in a list.
