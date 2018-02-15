@@ -15,7 +15,7 @@ ExampleList = [1,4,7,8,6,89,7,4,5,1,2,3,6,5,9,7,4,5,2,1,3,65,45,78,4,2,1,5,4,874
 
 def RemoveDuplicates_invasive(data):
 	"""
-		Remove all items with duplicates in a list without preserving the original list.
+		Remove all non-unique items in a list.
 
 		Method:
 			- Match each element with every other element in the list and remove if duplicate exists.
@@ -32,7 +32,7 @@ def RemoveDuplicates_invasive(data):
 
 def RemoveDuplicates_invasiveP(data):
 	"""
-		Remove duplicates in a list without preserving the original list.
+		Remove duplicates in a list.
 
 		Method:
 			- Count item occurences and remove items when duplicates are counted. 
@@ -54,7 +54,7 @@ def RemoveDuplicates_invasiveP(data):
 
 def RemoveDuplicates_single(data):
 	"""
-		Remove duplicates in a list of data while preserving original list.
+		Create unordered header of items in a list while preserving original data.
 
 		Method:
 			- If any element in input list is not found in output list, it is added to the end of output list. 
@@ -71,7 +71,7 @@ def RemoveDuplicates_single(data):
 
 def RemoveDuplicates_multiple(data):
 	"""
-		Remove duplicates in a list of data iterable through multiple lists and based on list index while preserving original list.
+		Create ordered header of items in a list (equivalent to removing duplicates in a list) while preserving original data
 
 		Method:
 			- If any element in input list is not found in output list, it is added to output list based on the index of the element. 
