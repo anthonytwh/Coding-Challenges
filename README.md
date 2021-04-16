@@ -1,2 +1,1 @@
-# Coding Intervew & Challenges Practice
-For practice and random ideas.
+Coding challenges and practice.
